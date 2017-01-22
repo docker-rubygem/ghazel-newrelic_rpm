@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=3.1.0.1
+ENV VERSION=3.4.0.2
 
 RUN gem install ghazel-newrelic_rpm --version ${VERSION} --no-format-exec
 
